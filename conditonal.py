@@ -7,9 +7,12 @@ if age.isdigit():
 
     if age < 18:
         print("oops!!! sorry,can't let you in,you are a minor")
+    elif age >= 50:
+        print("oops!!! sorry, you are way too old to be here")    
     else:
         print("you are an adult,move on")
 
 else:   
     print("please enter a valid age")     
+
  
