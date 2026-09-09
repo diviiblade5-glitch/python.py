@@ -35,3 +35,26 @@ print(x * y)#multiplies value
 print(x / y)#divides value and returns with decimal point
 print(x // y)#divides value without returning decimal
 print(x % y)#brings out the remainder of value
+
+numbers={1,22,22,3,3,4,5,6}
+print(numbers)
+
+numbers = [1, 2, 2, 3, 4, 4, 5]
+unique_numbers = set(numbers)
+print(unique_numbers)
+age = 11
+
+print(age >= 18)
+
+data = b"Hello"
+
+print(type(data))
+
+
+data = bytearray([65, 66, 67])
+data[0]=90
+print(data)
+
+data = bytes([65,66,67,68,])
+print(data)
+
