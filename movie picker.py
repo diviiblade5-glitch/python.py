@@ -1,4 +1,4 @@
-class MoviePicker:
+
 
     def funny_movies(self):
         return "Mr. Bean"

@@ -58,3 +58,11 @@ print(data)
 data = bytes([65,66,67,68,])
 print(data)
 
+data = bytearray(b"Hello")
+
+view = memoryview(data)
+print(view)
+
+x =None
+
+print(type(x))
