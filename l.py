@@ -36,33 +36,33 @@ print(x / y)#divides value and returns with decimal point
 print(x // y)#divides value without returning decimal
 print(x % y)#brings out the remainder of value
 
-numbers={1,22,22,3,3,4,5,6}
+numbers={1,22,22,3,3,4,5,6}#set type
 print(numbers)
 
-numbers = [1, 2, 2, 3, 4, 4, 5]
+numbers = [1, 2, 2, 3, 4, 4, 5]#turning list into set type
 unique_numbers = set(numbers)
 print(unique_numbers)
-age = 11
+age = 11#boolean type
 
 print(age >= 18)
 
-data = b"Hello"
+data = b"Hello"#bytes type
 
 print(type(data))
 
 
-data = bytearray([65, 66, 67])
+data = bytearray([65, 66, 67])#bytearray
 data[0]=90
 print(data)
 
-data = bytes([65,66,67,68,])
+data = bytes([65,66,67,68,])#bytes type
 print(data)
 
-data = bytearray(b"Hello")
+data = bytearray(b"Hello")#memoryview
 
 view = memoryview(data)
 print(view)
 
-x =None
+x =None#NoneType
 
-print(type(x))
+
